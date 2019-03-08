@@ -1,0 +1,59 @@
+/* Add here all your css styles (customizations) */
+.avatar {
+    width: 60px;
+}
+
+section {
+    border-top: solid 1px #eee;
+}
+
+.servive-block {
+    min-height: 300px;
+}
+
+@media (max-width: 768px) {
+    .servive-block {
+        min-height: inherit;
+    }
+}
+
+.servive-block-default {
+    background: #ffffff;
+}
+
+.service-box-v1 .servive-block {
+    min-height: 610px;
+}
+
+@media (max-width: 768px) {
+    .service-box-v1 .servive-block {
+        min-height: inherit;
+    }
+}
+
+li a {
+    color: #72c02c;
+}
+
+.mailto {
+    color: #ffffff;
+}
+
+.mailto:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.green {
+    color: #72c02c;
+}
+
+.copyright-section i.back-to-top {
+    color: #ffffff;
+    background: #72c02c;
+}
+
+.copyright-section i.back-to-top:hover {
+    color: #72c02c;
+    background: #ffffff;
+}
